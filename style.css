@@ -1,0 +1,31 @@
+body{
+    background-image: url('./images/bg-intro-desktop.png');
+    background-color : #ff7978;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+ h6{
+    line-height: 1.6;
+ }
+ 
+.btn{
+    background-color: #37cc8a;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.terms{
+    font-size: 12px;
+
+}
+
+.terms a{
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.offer{
+    background-color: #5d54a3;
+}
