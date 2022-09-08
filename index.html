@@ -37,27 +37,38 @@
           <div class="col-12 mb-4 mt-5 offer rounded text-center text-white px-5 pt-4 pb-2">
             <h6><strong>Try it free 7 days </strong>then $20/mo. thereafter</h6>
           </div>
-          <div class="row mx-auto bg-white py-4 pb-2 rounded form">
+          <form class="row mx-auto bg-white py-4 pb-2 rounded needs-validation form" novalidate>
             <div class="col-12 mb-3">
-              <input type="text" class="form-control form-control-lg fw-semibold fs-6 p-3" placeholder="First Name">
+              <input type="text" class="form-control form-control-lg fw-semibold fs-6 p-3" placeholder="First Name" required>
+              <div class="invalid-feedback text-end">
+                First Name cannot be empty
+              </div>
             </div>
             <div class="col-12 mb-3">
-              <input type="text" class="form-control form-control-lg fw-semibold fs-6 p-3" placeholder="Last Name">
+              <input type="text" class="form-control form-control-lg fw-semibold fs-6 p-3" placeholder="Last Name" required>
+              <div class="invalid-feedback text-end">
+                Last Name cannot be empty
+              </div>
             </div>
             <div class="col-12 mb-3">
-              <input type="text" class="form-control form-control-lg fw-semibold fs-6 p-3" placeholder="Email Address">
+              <input type="email" class="form-control form-control-lg fw-semibold fs-6 p-3" id="emailValidation" placeholder="Email Address" required>
+              <div class="invalid-feedback text-end" id="emailFeedback">
+                Email Address cannot be empty
+              </div>
             </div>
             <div class="col-12 mb-3">
-              <input type="text" class="form-control form-control-lg fw-semibold fs-6 p-3" placeholder="Password">
+              <input type="password" class="form-control form-control-lg fw-semibold fs-6 p-3" placeholder="Password" required>
+              <div class="invalid-feedback text-end">
+                Password cannot be empty
+              </div>
             </div>
             <div class="col-12 d-grid gap-2 mb-3">
-              <button type="button" class="btn btn-lg text-white text-uppercase px-5 py-3">Claim your free trial</button>
+              <button type="submit" class="btn btn-lg text-white text-uppercase px-5 py-3">Claim your free trial</button>
             </div>
             <div class="col-12 text-center terms px-4">
               <p class="lh-lg text-muted">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
             </div>
-          </div>
-          
+          </form>
         </div>
       </div>
     </div>
@@ -69,5 +80,6 @@
     </p>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 </html>

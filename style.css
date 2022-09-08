@@ -16,6 +16,17 @@ body{
     font-size: 14px;
 }
 
+.btn:active{
+    background-color: #37cc8a;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btn:hover, .btn:focus{
+    background-color: #2cb67d;
+}
+
 .terms{
     font-size: 12px;
 
@@ -45,9 +56,25 @@ body{
     margin-top: 190px;
 }
 
+.was-validated .form-control:invalid {
+    background-image: url('./images/icon-error.svg');
+  }
+
+.form-control:focus {
+    border-color:  #5d54a3;
+    border-width: 2px;
+    box-shadow: none
+}
+
 @media screen and (max-width: 992px) {
     .heading{
         margin-top: 100px;
+    }
+  }
+
+@media screen and (max-width: 375px) {
+    body{
+        background-image: url('./images/bg-intro-mobile.png');
     }
   }
 
