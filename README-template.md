@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-landing-page-with-form-using-bootstrap-Em8sG1VdSo)
-- Live Site URL: (https://whitneyharper.github.io/Component_with_SignUp_Form/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-landing-page-with-form-using-bootstrap-Em8sG1VdSo)
+- Live Site URL: [Component with SignUp Form](https://whitneyharper.github.io/Component_with_SignUp_Form/)
 
 ## My process
 
