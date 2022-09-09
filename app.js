@@ -27,7 +27,6 @@
         emailValidation.setCustomValidity("Invalid field.");
         emailValidation.classList.add('is-invalid');
         emailFeedback.innerText = "Looks like this is not an email";
-        emailValidation.style.backgroundImage = "url('images/icon-error.svg')";
         } else {
         emailValidation.classList.remove('is-invalid'); 
         emailValidation.setCustomValidity("")
