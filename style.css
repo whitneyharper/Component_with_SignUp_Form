@@ -8,7 +8,10 @@ body{
     line-height: 1.6;
  }
 
-
+ footer p {
+    font-size: 11px;
+  }
+  
 .btn{
     background-color: #37cc8a;
     letter-spacing: 1px;
